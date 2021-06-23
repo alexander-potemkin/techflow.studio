@@ -1,0 +1,22 @@
+ErrorDocument 403 /page3345337.html
+ErrorDocument 404 /page3345337.html
+
+DirectoryIndex page5995867.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://techflow\.studio/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.techflow.studio [NC]
+RewriteRule ^(.*)$ https://techflow\.studio/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^header$ page2870180.html [NC]
+RewriteRule ^header/$ page2870180.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3035-6533-4939-b239-613530636339/favicon.ico [R=302,L]
+

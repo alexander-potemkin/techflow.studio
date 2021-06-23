@@ -1,0 +1,14 @@
+User-Agent: *
+Disallow: /page3345337.html
+Disallow: /page2870180.html
+Disallow: /header
+Disallow: /page2870524.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: /techflow.studio/sitemap.xml
+Sitemap: /techflow.studio/sitemap-feeds.xml
+Host: /techflow.studio
