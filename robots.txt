@@ -9,6 +9,6 @@ Disallow: /tilda/click*
 Disallow: /tilda/scroll*
 Disallow: /tilda/popup*
 Disallow:
-Sitemap: /techflow.studio/sitemap.xml
-Sitemap: /techflow.studio/sitemap-feeds.xml
+Sitemap: /sitemap.xml
+Sitemap: /sitemap-feeds.xml
 Host: /techflow.studio
